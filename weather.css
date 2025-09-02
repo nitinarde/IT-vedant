@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #222;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: linear-gradient(to right, rgb(194, 149, 149), rgb(187, 187, 133));
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.paragraph{ 
+  justify-self: center;
+}
+#city {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid black;
+  padding: 10px 20px;
+  margin: 10px auto;
+  background-color: burlywood;
+  border-radius: 10px;
+  max-width: 500px;
+}
+
+
+.temp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin: 20px auto;
+}
+
+.city {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.8rem;
+  margin-bottom: 30px;
+}
+
+
+.details {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+
+.col {
+  background-color: rgba(255, 255, 255, 0.4);
+  padding: 20px;
+  border-radius: 12px;
+  min-width: 150px;
+  text-align: center;
+  border: 1px solid #444;
+  box-shadow: 0px 2px 10px rgba(0,0,0,0.1);
+}
+
+.col p {
+  margin: 5px 0;
+  font-size: 1rem;
+}
+.search, .button {
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  margin-right: 10px;
+}
+
+.button {
+  background-color: #333;
+  color: white;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #555;
+}
