@@ -13,7 +13,7 @@ export default function App() {
         <Route path="/" element={<Home />} />
         <Route path="/products" element={<Home />} />
         <Route path="/products/:id" element={<Product />} />
-        <Route path="/cart" element={<Cart />} />
+        {/* <Route path="/cart" element={<Cart />} /> */}
       </Routes>
     </Router>
   );
