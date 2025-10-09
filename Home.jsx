@@ -10,7 +10,7 @@ export default function Home() {
       .then((data) => setProducts(data))
       .catch((err) => {
         console.error("Failed to fetch products:", err);
-        setProducts([]);
+        // setProducts([]);
       });
   }, []);
 
